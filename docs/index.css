@@ -1,0 +1,460 @@
+/* PC用のCSSはメディアクエリの外に記述する */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Hannotate SC","HanziPen SC", YuMincho,"メイリオ",Meiryo,serif,sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    }
+
+@keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+head{
+  margin: 0;
+  padding: 0;
+}
+
+
+ h1 {
+  font-family: "HanziPen SC","Hannotate SC" , YuMincho,"メイリオ",Meiryo,serif,sans-serif;
+  /* font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif; */
+}
+
+
+
+
+#portfolio{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    color: #e6e6e6;
+  background: -webkit-linear-gradient(top, #FFB76B 0%, #92D050 50%, #E7DA66 51%, #555 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#portfolio h1 {
+  color: #FF7C00;
+  background: -webkit-linear-gradient(top, #FFB76B 0%, #FFA73D 50%, #FF7C00 51%, #FF7F04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .containter {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10000;
+} */
+
+ .middle{
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: .05em;
+  color: #333;
+  padding-top: 40px;
+  border-top: solid 1.5px white ;
+  color: #23d5ab;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #92D050, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:  -apple-system, "Hannotate SC","Segoe UI", "Helvetica Neue", "Hiragino Kaku Gothic ProN";
+}
+
+.content {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.content-mar {
+  margin-bottom: 5%;
+}
+
+header {
+    background-color:black;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+footer{
+  padding: 0;
+  text-align: center;
+}
+
+/* #nav {
+    list-style: none;
+    text-align: center;
+  }
+   
+#nav li {
+    width: 200px;
+    text-align: center;
+    background-color: lightblue;
+    display: inline-block;
+    font-size: 25px;
+  } 
+   
+#nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; 
+   } */
+
+nav {
+  margin-bottom: 20%;
+  /* position: fixed; */
+    /* width: 100%; */
+    /* top: 0; */
+    /* z-index: 10000;
+    background-color: black; */
+}
+
+nav ul{
+    display: table;
+    margin: 0 auto;
+    padding: 0 ;
+    width: 80%;
+    text-align: center;
+    }
+
+nav li{
+    display: table-cell;
+    min-width: 50px;
+    }
+
+nav a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #555;
+    padding-bottom: 5px;
+    font-family:  -apple-system, "Hannotate SC","Segoe UI", "Helvetica Neue", "Hiragino Kaku Gothic ProN";
+    }
+
+nav li.current{
+    border-bottom: 3px solid #92D050;
+    }
+
+nav li:hover{
+    color: #E7DA66;
+    border-bottom: 3px solid #F0E475;
+    }
+
+
+#about {
+  margin-top: 0%;
+  font-family: 'Caveat';
+}
+
+
+main{
+    max-width: 100%;
+    margin: 0px;
+    padding: 60px; 
+}
+footer{
+    max-width: 100%;
+    max-height: 300px;
+    padding: 60px;
+    padding-bottom: 3%;
+}
+
+.main-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    padding-top: 0%;
+  }
+  
+  /* .main-visual-inner {
+    padding:  20%;
+  } */
+  
+  .main-visual-title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    letter-spacing: .1em;
+  }
+
+.main-visual-img  {
+    /* width: 25%; */
+    /* border-radius: 50%; */
+    /* margin-right: 30px;   */
+    /* border-radius: 20px; */
+    /* margin-bottom: 40px; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-visual-img img {
+    /* border-radius: 100%; */
+    width: 25%;
+    height: auto;
+    /* text-align: center; */
+    /* margin-left: 75%; */
+    /* padding: 3%; */
+    margin: 3%;
+    border-radius: 20px;
+    margin-bottom: 20%; 
+  }
+
+  .main-visual-text {
+    font-size: 18px;
+  }
+
+
+  /* .works-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -40px;
+  } */
+
+  /* .works-img {
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+  } */
+
+  .works-img img {
+    border: 1px solid #e6e6e6;
+    width: 300px;
+    height: auto;
+    /* max-width: 100%; */
+    border-radius: 20px;
+    /* border-radius: 90px; */
+  }
+
+  .works-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .works-info {
+    font-size: 20px;
+    margin-left: 5%;
+  }
+  
+  .linebot img {
+    margin-left:auto ;
+    margin-left: 25%;
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+
+  }
+
+.videos video {
+    margin-left:auto ;
+    margin-left: 20%;
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+  }
+
+.recomend {
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.chattext {
+    font-size: 20px;
+}
+
+.inner {
+  max-width: 1340px;
+  /* max-width: 100%; */
+  margin: 0 auto;
+  /* padding:  40px; */
+  margin-top: 20px;
+}
+
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 48%;
+  margin-bottom: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.skill-img {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+  /* background-color: #e6e6e6; */
+  max-width: 100px;
+}
+
+
+.skill-img img{
+  width: 80%;
+  height: auto;
+  max-width: 100px;
+}
+
+.skill-body {
+  flex: 1;
+}
+
+.skill-name {
+  margin-bottom: 3px;
+}
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+  .inner {
+    /* max-width: 1340px; */
+    max-width: 100%;
+    margin: 0 auto;
+    /* padding:  40px; */
+    margin-top: 20px;
+  }
+
+  main{
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px; 
+  }
+
+  #nav li {
+    width: 150px;
+    text-align: center;
+    background-color: lightblue;
+    display: inline-block;
+    font-size: 20px;
+  } 
+
+  #nav {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .videos video {
+    margin-left:auto ;
+    margin-left: 10%;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+  }
+
+@media screen and (max-width: 500px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+  .inner {
+    /* max-width: 1340px; */
+    max-width: 100%;
+    margin: 0 auto;
+    /* padding:  40px; */
+    margin-top: 20px;
+  }
+
+  main{
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px; 
+  }
+
+  .main-visual-img  img {
+    width: 50%;
+    /* border-radius: 50%; */
+    /* border-radius: 20px; */
+    margin-bottom: 0%;
+  }
+
+  #nav li {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: lightblue;
+    display: inline-block;
+    font-size: 13px;
+  } 
+
+  #nav {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+
+  #portfolio{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .videos video {
+    margin-left:auto ;
+    margin-left: 5%;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  nav {
+    margin-bottom: 0;
+  }
+
+  .works-img img {
+    border: 1px solid #e6e6e6;
+    width: 80px;
+    height: auto;
+    border-radius: 20px;
+    /* border-radius: 90px; */
+  }
+
+  .content {
+    font-size: 20px;
+}
+
+.content-mar {
+  margin-bottom: 10%;
+}
+
+.recomend {
+  font-size: 18px;
+}
+
+.chattext {
+  font-size: 15px;
+}
+
+.works-info {
+  font-size: 15px;
+}
